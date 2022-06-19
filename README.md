@@ -1,0 +1,1 @@
+# my-hammerspoon-with-typescript

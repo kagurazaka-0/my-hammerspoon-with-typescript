@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TypeScriptToLua/vscode-typescript-to-lua/master/tsconfig-schema.json",
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": [
+      "esnext"
+    ],
+    "moduleResolution": "node",
+    "types": [
+      "lua-types/5.3"
+    ],
+    "strict": true
+  },
+  "tstl": {
+    "luaTarget": "5.3",
+    "luaBundle": "dev-init.lua",
+    "luaBundleEntry": "src/main.ts",
+    // "lua51AllowTryCatchInAsyncAwait": true,
+    "noImplicitSelf": true
+  }
+}

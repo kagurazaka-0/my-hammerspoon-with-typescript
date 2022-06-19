@@ -1,0 +1,13 @@
+{
+  "name": "my-hammerspoon-with-typescript",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tstl -p ./tsconfig.json",
+    "dev": "tstl -p ./tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "lua-types": "^2.11.0",
+    "typescript": "^4.7.4",
+    "typescript-to-lua": "^1.6.0"
+  }
+}
