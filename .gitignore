@@ -1,6 +1,7 @@
 # my
 
 *.lua
+!init.lua
 memo.md
 
 ## from vite init
